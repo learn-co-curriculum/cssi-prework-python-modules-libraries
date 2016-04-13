@@ -1,12 +1,14 @@
 #Python - Importing Libraries and Modules
+
 ##Objectives
-* Understand how to import and use Python modules
+
 * Understand how to look for, import and use Python libraries
 
 ##Importing a Module
-As Python code gets larger and mode complex, developers may choose to group related code into individual files, called modules. Just like any script, a module can define functions, classes and variables.
 
-Using modules makes code easier to work with because it adds an extra layer or organization.
+As Python code gets larger and mode complex, developers may choose to group related code into individual files, called **modules**. Just like any script, a module can define functions, classes and variables.
+
+Using modules makes code easier to work with because it adds an extra layer of organization.
 
 To import a module, just use the `import` keyword followed by the name of the file you'd like to load. There is no need to use the `.py` extension.
 
@@ -23,7 +25,7 @@ from musician import songs, play_music
 
 ##Importing a Library
 
-Once a module is available for public use, it is then generally referred to as a library. These Python scripts are written to accomplish common tasks and are widely shared.
+Once a module is available for public use, it is then generally referred to as a library. Libraries are Python scripts written to accomplish common tasks, and are widely shared by developers.
 
 Using libraries requires three steps:
 1. Install pip, which is a tool that helps get and manage Python packages. You will only need to do this once. To install pip on a Mac, you can use easy_install in the command line

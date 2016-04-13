@@ -33,12 +33,10 @@ Using libraries requires three steps:
 ```python
 >>>sudo easy_install pip
 ```
-
 2. Install the library in your environment using the `pip` command. You will need to install any new libraries you want to use. If you don't have a library installed, when you try to use it, you'll get an NameError message: `NameError: name 'library_name' is not defined`. This message generally just means that you need to install that package locally.
-```python
->>pip install library_name
-```
-
+  ```python
+  >>pip install library_name
+  ```
 3. Import the library at the top of your Python script.
 ```python
 import library_name

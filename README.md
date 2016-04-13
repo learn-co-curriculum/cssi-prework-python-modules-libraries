@@ -28,6 +28,7 @@ from musician import songs, play_music
 Once a module is available for public use, it is then generally referred to as a library. Libraries are Python scripts written to accomplish common tasks, and are widely shared by developers.
 
 Using libraries requires three steps:
+
 1. Install pip, which is a tool that helps get and manage Python packages. You will only need to do this once. To install pip on a Mac, you can use easy_install in the command line
 ```python
 >>>sudo easy_install pip
@@ -37,6 +38,7 @@ Using libraries requires three steps:
 ```python
 >>pip install library_name
 ```
+
 3. Import the library at the top of your Python script.
 ```python
 import library_name

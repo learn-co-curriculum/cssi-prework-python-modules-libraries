@@ -44,8 +44,9 @@ Using libraries requires three steps:
   ```python
   import library_name
   ```
+Here's a [list of great Python modules](http://www.catswhocode.com/blog/python-50-modules-for-all-needs) you may want to play around with.
 
-An example of a basic Python library is- **random.py**. Since many developers would want a way to generate random numbers, someone created and published code with a variety of methods that accomplishes this goal. You can find documentation on this library <a href="https://docs.python.org/2/library/random.html">here</a> to learn about all the different functions you can call from it.
+An example of a basic Python library is- **random.py**. Since many developers would want a way to generate random numbers, someone created and published code with a variety of methods that accomplishes this goal. (random.py does not need to be installed - it comes with Python). You can find documentation on this library <a href="https://docs.python.org/2/library/random.html">here</a> to learn about all the different functions you can call from it.
 
 To use any of the methods in `random.py`, just import the `random` library, and then call the method by using dot notation:
 

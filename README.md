@@ -30,17 +30,20 @@ Once a module is available for public use, it is then generally referred to as a
 Using libraries requires three steps:
 
 1. Install pip, which is a tool that helps get and manage Python packages. You will only need to do this once. To install pip on a Mac, you can use easy_install in the command line
+
   ```python
   >>>sudo easy_install pip
   ```
 2. Install the library in your environment using the `pip` command. You will need to install any new libraries you want to use. If you don't have a library installed, when you try to use it, you'll get an NameError message: `NameError: name 'library_name' is not defined`. This message generally just means that you need to install that package locally.
+
   ```python
   >>pip install library_name
   ```
 3. Import the library at the top of your Python script.
-```python
-import library_name
-```
+
+  ```python
+  import library_name
+  ```
 
 An example of a basic Python library is- **random.py**. Since many developers would want a way to generate random numbers, someone created and published code with a variety of methods that accomplishes this goal. You can find documentation on this library <a href="https://docs.python.org/2/library/random.html">here</a> to learn about all the different functions you can call from it.
 

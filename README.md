@@ -1,10 +1,10 @@
-#Python - Importing Libraries and Modules
+# Python - Importing Libraries and Modules
 
-##Objectives
+## Objectives
 
 * Understand how to look for, import and use Python libraries
 
-##Importing a Module
+## Importing a Module
 
 As Python code gets larger and mode complex, developers may choose to group related code into individual files, called **modules**. Just like any script, a module can define functions, classes and variables.
 
@@ -23,7 +23,7 @@ import musician
 from musician import songs, play_music
 ```
 
-##Importing a Library
+## Importing a Library
 
 Once a module is available for public use, it is then generally referred to as a library. Libraries are Python scripts written to accomplish common tasks, and are widely shared by developers.
 
@@ -57,5 +57,5 @@ print random.randint(1,3)
 
 There are a lot of libraries to explore, including [this list](http://pythontips.com/2013/07/30/20-python-libraries-you-cant-live-without/) of 20 common ones including Pyglet, a library for 3D animation and NumPy which allows for complext mathematical operations. Before writing methods or functions to do something routine, check to see if a library exists - it will make your life a lot easier.
 
-##Conclusion
+## Conclusion
 Modules allow Python developers to keep code in distinct files, seperated by functionality. When those modules are shared with others, they are called libraries. This code is easy to import and easy to use in your own scripts.
